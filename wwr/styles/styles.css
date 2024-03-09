@@ -29,12 +29,17 @@ nav a{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    width: 100%
 }
 
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+    width: 100%;
+}
+
+#hero-img {
     width: 100%
 }
 
@@ -267,3 +272,55 @@ footer .social img{
         margin-top: 25px;
     }
 }
+
+/* end of homepage and beginning of subpage */
+
+.rates-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rafting-img{
+    width: 600px;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+.rafts-img{
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+.rates-grid h2{
+    margin-right: 150px;
+    margin-top: 25px;
+}
+
+.msg-2{
+    background-color: whitesmoke;
+    line-height: 1.5em;
+    padding: 35px;
+    width: 450px;
+    box-shadow: 5px 5px 10px #6f7364;
+    height: 150px;
+    margin-top: 150px;
+    margin-left: -150px;
+}
+
+.msg-2 p{
+    color:darkblue;
+    font-size: .8em;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.msg-4{
+    background-color: whitesmoke;
+    line-height: 1.5em;
+    padding: 35px;
+    width: 450px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 35px;
+    margin-left: 450px;
+}
+
